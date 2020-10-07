@@ -6,6 +6,7 @@ function renderCafe(item){
     let city = document.createElement('span');
 
     li.setAttribute('data-id', item.id);
+    
     name.textContent = item.data().name;
     city.textContent = item.data().city;
 
